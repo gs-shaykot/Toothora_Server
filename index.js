@@ -6,7 +6,7 @@ const app = express()
 const PORT = process.env.PORT || 5000;
 // Middleware 
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://assignment-12-93b12.web.app', 'https://ass-12-delta.vercel.app'],
+    origin: ['http://localhost:5173', 'https://toothora.netlify.app', 'https://toothora-server.onrender.com'],
     credentials: true
 }));
 
